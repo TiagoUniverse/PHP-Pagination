@@ -5,23 +5,13 @@ if (isset($_GET['pagina'])) {
     $pagina = $_GET['pagina'];
 
     // Define o número de itens por página
-    $itensPorPagina = 10;
+    $itensPorPagina = 2;
 
     // Aqui você pode realizar qualquer lógica necessária para obter os dados correspondentes à página solicitada
     // Por exemplo, realizar uma consulta ao banco de dados
     
     // Supondo que você tenha uma array de dados que serão exibidos na páginação
-    $dados = array(
-        // Dados da página 1
-        array('id' => 1, 'nome' => 'Item 1'),
-        array('id' => 2, 'nome' => 'Item 2'),
-        // ...
-        
-        // Dados da página 2
-        array('id' => 11, 'nome' => 'Item 11'),
-        array('id' => 12, 'nome' => 'Item 12'),
-        // ...
-    );
+    $dados = array(1 , 2 , 3 , 4 , 5 , 6);
     
     // Calcula o índice de início da página com base no número da página e no número de itens por página
     $indiceInicio = ($pagina - 1) * $itensPorPagina;
