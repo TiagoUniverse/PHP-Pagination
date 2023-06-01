@@ -17,9 +17,5 @@ body{
 #div-listagem{
     background-color: purple;
     width: 100%;
-    height: 1cm;
-    margin: 1cm;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
+    text-align: left; 
 }

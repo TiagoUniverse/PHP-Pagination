@@ -28,13 +28,19 @@
                     function criarInputComValor(nome, preco) {
                         var container = document.createElement('div');
                         container.id = "div-listagem";
-                        
 
 
-                        var label = document.createElement('label');
-                        label.textContent = nome;
-                        
-                        container.appendChild(label);
+
+                        var h2 = document.createElement('h2');
+                        h2.textContent = nome;
+                        h2.textContent = h2.textContent.toUpperCase();
+                        container.appendChild(h2);
+
+                        var Content_P = document.createElement('p');
+                        Content_P.textContent = "O preço é " + preco;
+                        container.appendChild(Content_P);
+
+
                         // var nomeInput = document.createElement('input');
                         // nomeInput.type = 'text';
                         // nomeInput.value = nome;
