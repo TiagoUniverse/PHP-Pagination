@@ -14,7 +14,7 @@
 
         function carregarPagina(pagina) {
             $.ajax({
-                url: 'dados_pagina.php',
+                url: 'dados_pagina_SemBD.php',
                 type: 'GET',
                 data: {
                     pagina: pagina
