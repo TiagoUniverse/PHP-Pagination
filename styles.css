@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+}
+
+#conteudo{
+    margin-bottom: 15px;
+    
+}
+
+#conteudo input{
+    padding: 10px;
+}
